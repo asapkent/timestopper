@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B64A93AA2279F69F007F4457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A93A92279F69F007F4457 /* AppDelegate.swift */; };
+		B64A93AC2279F69F007F4457 /* TrackWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A93AB2279F69F007F4457 /* TrackWatchViewController.swift */; };
+		B64A93AF2279F69F007F4457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64A93AD2279F69F007F4457 /* Main.storyboard */; };
+		B64A93B12279F6A1007F4457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64A93B02279F6A1007F4457 /* Assets.xcassets */; };
+		B64A93B42279F6A1007F4457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64A93B22279F6A1007F4457 /* LaunchScreen.storyboard */; };
+		B64A93BF2279F6A1007F4457 /* TrackWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A93BE2279F6A1007F4457 /* TrackWatchTests.swift */; };
+		B64A93CA2279F6A1007F4457 /* TrackWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A93C92279F6A1007F4457 /* TrackWatchUITests.swift */; };
+		B64A93D8227A91F5007F4457 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A93D7227A91F5007F4457 /* CustomColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B64A93BB2279F6A1007F4457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B64A939E2279F69F007F4457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B64A93A52279F69F007F4457;
+			remoteInfo = TrackWatch;
+		};
+		B64A93C62279F6A1007F4457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B64A939E2279F69F007F4457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B64A93A52279F69F007F4457;
+			remoteInfo = TrackWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B64A93A62279F69F007F4457 /* TrackWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64A93A92279F69F007F4457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B64A93AB2279F69F007F4457 /* TrackWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackWatchViewController.swift; sourceTree = "<group>"; };
+		B64A93AE2279F69F007F4457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B64A93B02279F6A1007F4457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B64A93B32279F6A1007F4457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B64A93B52279F6A1007F4457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64A93BA2279F6A1007F4457 /* TrackWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64A93BE2279F6A1007F4457 /* TrackWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackWatchTests.swift; sourceTree = "<group>"; };
+		B64A93C02279F6A1007F4457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64A93C52279F6A1007F4457 /* TrackWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64A93C92279F6A1007F4457 /* TrackWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackWatchUITests.swift; sourceTree = "<group>"; };
+		B64A93CB2279F6A1007F4457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64A93D7227A91F5007F4457 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B64A93A32279F69F007F4457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64A93B72279F6A1007F4457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64A93C22279F6A1007F4457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B64A939D2279F69F007F4457 = {
+			isa = PBXGroup;
+			children = (
+				B64A93A82279F69F007F4457 /* TrackWatch */,
+				B64A93BD2279F6A1007F4457 /* TrackWatchTests */,
+				B64A93C82279F6A1007F4457 /* TrackWatchUITests */,
+				B64A93A72279F69F007F4457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B64A93A72279F69F007F4457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B64A93A62279F69F007F4457 /* TrackWatch.app */,
+				B64A93BA2279F6A1007F4457 /* TrackWatchTests.xctest */,
+				B64A93C52279F6A1007F4457 /* TrackWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B64A93A82279F69F007F4457 /* TrackWatch */ = {
+			isa = PBXGroup;
+			children = (
+				B64A93A92279F69F007F4457 /* AppDelegate.swift */,
+				B64A93AB2279F69F007F4457 /* TrackWatchViewController.swift */,
+				B64A93AD2279F69F007F4457 /* Main.storyboard */,
+				B64A93D7227A91F5007F4457 /* CustomColor.swift */,
+				B64A93B02279F6A1007F4457 /* Assets.xcassets */,
+				B64A93B22279F6A1007F4457 /* LaunchScreen.storyboard */,
+				B64A93B52279F6A1007F4457 /* Info.plist */,
+			);
+			path = TrackWatch;
+			sourceTree = "<group>";
+		};
+		B64A93BD2279F6A1007F4457 /* TrackWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				B64A93BE2279F6A1007F4457 /* TrackWatchTests.swift */,
+				B64A93C02279F6A1007F4457 /* Info.plist */,
+			);
+			path = TrackWatchTests;
+			sourceTree = "<group>";
+		};
+		B64A93C82279F6A1007F4457 /* TrackWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B64A93C92279F6A1007F4457 /* TrackWatchUITests.swift */,
+				B64A93CB2279F6A1007F4457 /* Info.plist */,
+			);
+			path = TrackWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B64A93A52279F69F007F4457 /* TrackWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64A93CE2279F6A1007F4457 /* Build configuration list for PBXNativeTarget "TrackWatch" */;
+			buildPhases = (
+				B64A93A22279F69F007F4457 /* Sources */,
+				B64A93A32279F69F007F4457 /* Frameworks */,
+				B64A93A42279F69F007F4457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackWatch;
+			productName = TrackWatch;
+			productReference = B64A93A62279F69F007F4457 /* TrackWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B64A93B92279F6A1007F4457 /* TrackWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64A93D12279F6A1007F4457 /* Build configuration list for PBXNativeTarget "TrackWatchTests" */;
+			buildPhases = (
+				B64A93B62279F6A1007F4457 /* Sources */,
+				B64A93B72279F6A1007F4457 /* Frameworks */,
+				B64A93B82279F6A1007F4457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64A93BC2279F6A1007F4457 /* PBXTargetDependency */,
+			);
+			name = TrackWatchTests;
+			productName = TrackWatchTests;
+			productReference = B64A93BA2279F6A1007F4457 /* TrackWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B64A93C42279F6A1007F4457 /* TrackWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64A93D42279F6A1007F4457 /* Build configuration list for PBXNativeTarget "TrackWatchUITests" */;
+			buildPhases = (
+				B64A93C12279F6A1007F4457 /* Sources */,
+				B64A93C22279F6A1007F4457 /* Frameworks */,
+				B64A93C32279F6A1007F4457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64A93C72279F6A1007F4457 /* PBXTargetDependency */,
+			);
+			name = TrackWatchUITests;
+			productName = TrackWatchUITests;
+			productReference = B64A93C52279F6A1007F4457 /* TrackWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B64A939E2279F69F007F4457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JeffWorld;
+				TargetAttributes = {
+					B64A93A52279F69F007F4457 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B64A93B92279F6A1007F4457 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B64A93A52279F69F007F4457;
+					};
+					B64A93C42279F6A1007F4457 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B64A93A52279F69F007F4457;
+					};
+				};
+			};
+			buildConfigurationList = B64A93A12279F69F007F4457 /* Build configuration list for PBXProject "TrackWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B64A939D2279F69F007F4457;
+			productRefGroup = B64A93A72279F69F007F4457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B64A93A52279F69F007F4457 /* TrackWatch */,
+				B64A93B92279F6A1007F4457 /* TrackWatchTests */,
+				B64A93C42279F6A1007F4457 /* TrackWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B64A93A42279F69F007F4457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64A93B42279F6A1007F4457 /* LaunchScreen.storyboard in Resources */,
+				B64A93B12279F6A1007F4457 /* Assets.xcassets in Resources */,
+				B64A93AF2279F69F007F4457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64A93B82279F6A1007F4457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64A93C32279F6A1007F4457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B64A93A22279F69F007F4457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64A93AC2279F69F007F4457 /* TrackWatchViewController.swift in Sources */,
+				B64A93AA2279F69F007F4457 /* AppDelegate.swift in Sources */,
+				B64A93D8227A91F5007F4457 /* CustomColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64A93B62279F6A1007F4457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64A93BF2279F6A1007F4457 /* TrackWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64A93C12279F6A1007F4457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64A93CA2279F6A1007F4457 /* TrackWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B64A93BC2279F6A1007F4457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B64A93A52279F69F007F4457 /* TrackWatch */;
+			targetProxy = B64A93BB2279F6A1007F4457 /* PBXContainerItemProxy */;
+		};
+		B64A93C72279F6A1007F4457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B64A93A52279F69F007F4457 /* TrackWatch */;
+			targetProxy = B64A93C62279F6A1007F4457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B64A93AD2279F69F007F4457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64A93AE2279F69F007F4457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B64A93B22279F6A1007F4457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64A93B32279F6A1007F4457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B64A93CC2279F6A1007F4457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B64A93CD2279F6A1007F4457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B64A93CF2279F6A1007F4457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRAC34NQWC;
+				INFOPLIST_FILE = TrackWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffworld.TrackWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B64A93D02279F6A1007F4457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRAC34NQWC;
+				INFOPLIST_FILE = TrackWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffworld.TrackWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B64A93D22279F6A1007F4457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRAC34NQWC;
+				INFOPLIST_FILE = TrackWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffworld.TrackWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackWatch.app/TrackWatch";
+			};
+			name = Debug;
+		};
+		B64A93D32279F6A1007F4457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRAC34NQWC;
+				INFOPLIST_FILE = TrackWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffworld.TrackWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackWatch.app/TrackWatch";
+			};
+			name = Release;
+		};
+		B64A93D52279F6A1007F4457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRAC34NQWC;
+				INFOPLIST_FILE = TrackWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffworld.TrackWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackWatch;
+			};
+			name = Debug;
+		};
+		B64A93D62279F6A1007F4457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRAC34NQWC;
+				INFOPLIST_FILE = TrackWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffworld.TrackWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B64A93A12279F69F007F4457 /* Build configuration list for PBXProject "TrackWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64A93CC2279F6A1007F4457 /* Debug */,
+				B64A93CD2279F6A1007F4457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64A93CE2279F6A1007F4457 /* Build configuration list for PBXNativeTarget "TrackWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64A93CF2279F6A1007F4457 /* Debug */,
+				B64A93D02279F6A1007F4457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64A93D12279F6A1007F4457 /* Build configuration list for PBXNativeTarget "TrackWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64A93D22279F6A1007F4457 /* Debug */,
+				B64A93D32279F6A1007F4457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64A93D42279F6A1007F4457 /* Build configuration list for PBXNativeTarget "TrackWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64A93D52279F6A1007F4457 /* Debug */,
+				B64A93D62279F6A1007F4457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B64A939E2279F69F007F4457 /* Project object */;
+}
