@@ -11,7 +11,8 @@ import UIKit
 
 class TrackWatchViewController: UIViewController {
 
-    @IBOutlet weak var restButton: UIButton!
+   
+    @IBOutlet weak var resetButton: UIButton!
     @IBOutlet weak var timeKeeper: UILabel!
     @IBOutlet weak var pauseButton: UIButton!
     @IBOutlet weak var startButton: UIButton!
@@ -20,52 +21,67 @@ class TrackWatchViewController: UIViewController {
     var istimerRunning = false
     var counter = 0.0
     
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
        
-//        startButton.backgroundColor = blackTranslucent
-//        pauseButton.backgroundColor = blackTranslucent
-//        restButton.backgroundColor = blackTranslucent
         view.backgroundColor = black
-        //timeKeeper.backgroundColor = snow
-        restButton.isEnabled = false
+        
+        resetButton.isEnabled = false
         pauseButton.isEnabled = false
         startButton.isEnabled = true
-    }
+        
+        startButton.setTitleColor(lime, for: UIControl.State.normal)
+        pauseButton.setTitleColor(red, for: UIControl.State.normal)
+        
+        timeKeeper.layer.cornerRadius = 5.0
+        timeKeeper.layer.masksToBounds = true
 
+        resetButton.layer.cornerRadius = 4.0
+        resetButton.layer.masksToBounds = true
+        resetButton.isEnabled = false
+        resetButton.alpha = 0.5
+
+        startButton.layer.cornerRadius = startButton.bounds.width / 2.0
+        startButton.layer.masksToBounds = true
+
+        pauseButton.layer.cornerRadius = pauseButton.bounds.width / 3.0
+        pauseButton.layer.masksToBounds = true
+        pauseButton.isEnabled = false
+        pauseButton.alpha = 0.5
+    }
 
     @IBAction func startButtonPressed(_ sender: UIButton) {
         
-//        if startButton.backgroundColor == blackTranslucent {
-//            startButton.backgroundColor = lime
-//        } else  if
-//            startButton.backgroundColor == lime {
-//                startButton.backgroundColor = blackTranslucent
-//            }
         if !istimerRunning {
             timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(runTimer), userInfo: nil, repeats: true)
            
             istimerRunning = true
-            restButton.isEnabled = true
+            
+            resetButton.isEnabled = true
             pauseButton.isEnabled = true
             startButton.isEnabled = false
+            
+            resetButton.alpha = 1.0
+            startButton.alpha = 0.5
+            pauseButton.alpha = 1.0
+
         }
     }
     
     @IBAction func pauseButtonPressed(_ sender: UIButton) {
-//        if pauseButton.backgroundColor == blackTranslucent {
-//            pauseButton.backgroundColor = red
+//        if pauseButton.isEnabled == false {
+//            pauseButton.backgroundColor = black
 //        } else if
-//            pauseButton.backgroundColor == red {
-//            pauseButton.backgroundColor = blackTranslucent
+//            pauseButton.isEnabled == true {
+//            pauseButton.backgroundColor = red
 //        }
-            restButton.isEnabled = true
+            resetButton.isEnabled = true
             startButton.isEnabled = true
             pauseButton.isEnabled = false
+        
+            resetButton.alpha = 1.0
+            startButton.alpha = 1.0
+            pauseButton.alpha = 0.5
         
             istimerRunning = false
             timer.invalidate()
@@ -78,9 +94,13 @@ class TrackWatchViewController: UIViewController {
         
         timeKeeper.text = "00:00:00.0"
         
-        restButton.isEnabled = false
+        resetButton.isEnabled = false
         pauseButton.isEnabled = false
         startButton.isEnabled = true
+        
+        resetButton.alpha = 0.5
+        startButton.alpha = 1.0
+        pauseButton.alpha = 0.5
     }
     
     @objc func runTimer()  {
