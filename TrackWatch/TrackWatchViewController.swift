@@ -64,6 +64,8 @@ class TrackWatchViewController: UIViewController {
             resetButton.alpha = 1.0
             startButton.alpha = 0.5
             pauseButton.alpha = 1.0
+            
+            sender.pulsate()
 
         }
     }
@@ -85,6 +87,8 @@ class TrackWatchViewController: UIViewController {
         
             istimerRunning = false
             timer.invalidate()
+        
+        sender.pulsate()
     }
     
     @IBAction func resetButtonPressed(_ sender: UIButton) {
@@ -101,6 +105,8 @@ class TrackWatchViewController: UIViewController {
         resetButton.alpha = 0.5
         startButton.alpha = 1.0
         pauseButton.alpha = 0.5
+        
+        sender.pulsate()
     }
     
     @objc func runTimer()  {

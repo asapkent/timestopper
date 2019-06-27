@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6424C8522C5721000D229BA /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6424C8422C5721000D229BA /* Animations.swift */; };
 		B64A93AA2279F69F007F4457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A93A92279F69F007F4457 /* AppDelegate.swift */; };
 		B64A93AC2279F69F007F4457 /* TrackWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A93AB2279F69F007F4457 /* TrackWatchViewController.swift */; };
 		B64A93AF2279F69F007F4457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64A93AD2279F69F007F4457 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6424C8422C5721000D229BA /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		B64A93A62279F69F007F4457 /* TrackWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64A93A92279F69F007F4457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B64A93AB2279F69F007F4457 /* TrackWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackWatchViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				B64A93AB2279F69F007F4457 /* TrackWatchViewController.swift */,
 				B64A93AD2279F69F007F4457 /* Main.storyboard */,
 				B64A93D7227A91F5007F4457 /* CustomColor.swift */,
+				B6424C8422C5721000D229BA /* Animations.swift */,
 				B64A93B02279F6A1007F4457 /* Assets.xcassets */,
 				B64A93B22279F6A1007F4457 /* LaunchScreen.storyboard */,
 				B64A93B52279F6A1007F4457 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				B64A93AC2279F69F007F4457 /* TrackWatchViewController.swift in Sources */,
 				B64A93AA2279F69F007F4457 /* AppDelegate.swift in Sources */,
+				B6424C8522C5721000D229BA /* Animations.swift in Sources */,
 				B64A93D8227A91F5007F4457 /* CustomColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
